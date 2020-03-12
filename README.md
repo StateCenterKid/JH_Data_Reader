@@ -1,7 +1,10 @@
 # JH_Data_Reader
 R Code for Reading and Correcting Johns Hopkins Covid Data
 
-This is my attempt to read and clean the Johns Hopkins time series tables for the Covid-19 situation
+This is my attempt to read and clean the Johns Hopkins time series tables for the Covid-19 situation.
+
+It pulls in the raw datafiles, cleans up the country/province names and gets rid of the duplicated data in the US.  I'm sure there are more problems i havent found yet.
+
 
 -----------------------
 R version 3.5.3 (2019-03-11)
